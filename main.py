@@ -3,9 +3,6 @@ import time
 import pandas as pd
 import os
 import sys
-script_dir = os.path.dirname( __file__ )
-mymodule_dir = os.path.join( '/home/orkideh/usr/Ori/Kafka_binance/' )
-sys.path.append( mymodule_dir )
 import binance_api.log_api as ba
 import message_bus.kafka_producer as kp
 
